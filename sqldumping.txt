@@ -1,0 +1,4 @@
+D:\Program Files\MySQL\MySQL Server 5.6\bin>mysqldump mdb --single-transaction --set-gtid-purged=OFF --user=root --pass > mdb.sql
+
+import
+mysql --verbose --user=root --password=123 mdb < mdb.sql
